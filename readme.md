@@ -27,7 +27,7 @@ In this lesson, we will be focusing on the many features that Django provide us
 to set up and maintain our database and models.
 
 ## We Do: Set Up a Django Application & Virtual Environment
-See [installation instructions.](https://git.generalassemb.ly/seir-129/django-installation/blob/master/README.md)
+See [installation instructions.](https://git.generalassemb.ly/seir-323/django-installation/blob/master/README.md)
 
 ## Models (10 min / 0:40)
 
