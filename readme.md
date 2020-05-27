@@ -417,7 +417,7 @@ Artist.objects.all()
 
 ## Closing/Questions (10 minutes / 2:30)
 
-## [ Solution For Tunr ](https://github.com/ga-wdi-exercises/tunr_updated)
+## [ Solution For Tunr ](https://git.generalassemb.ly/seir-323/tunr_solution)
 
 ## Additional Resources
 
