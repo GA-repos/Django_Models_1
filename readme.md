@@ -116,8 +116,16 @@ $ python3 manage.py migrate
 
 This will commit the migration to the database.
 
-If you open up `psql` and connect to the `tunr` database you'll see all the
-tables have now been created!
+If you open up `psql`:
+```
+$ psql
+```
+
+and connect to the `tunr` database:
+```
+\c tunr
+```
+you'll see all the tables have now been created!
 
 This is quite different than mongoDB, where the databases and collections get
 created automatically as soon as you insert data into them.
