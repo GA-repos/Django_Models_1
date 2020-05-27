@@ -100,7 +100,8 @@ the `models.py` file. Go ahead and open it up - it should be in
 
 Every time you make changes to your models, run `makemigrations` again.
 
-You should **NEVER** edit the migration files manually. Instead, edit the models
+You should **NEVER** edit the migration files manually, as Django automatically takes care
+of generating these migration files based on our model changes. Instead, edit the models
 files and let django figure out what to generate from them by running
 `makemigrations` again.
 
