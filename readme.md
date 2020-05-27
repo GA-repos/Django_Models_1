@@ -29,6 +29,12 @@ to set up and maintain our database and models.
 ## We Do: Set Up a Django Application & Virtual Environment
 See [installation instructions.](https://git.generalassemb.ly/seir-323/django-installation/blob/master/README.md)
 
+To start your Django server:
+1. Navigate into your `/tunr_django` folder.
+1. Run `pipenv shell` to activate your virtual environment.
+1. Run `python3 manage.py runserver`.
+1. Navigate to `localhost:8000`.
+
 ## Models (10 min / 0:40)
 
 Let's start working with some data. In Django, we will write out models. Models
