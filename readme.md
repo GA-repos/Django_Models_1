@@ -357,29 +357,29 @@ Artist.objects.all().values_list('nationality')
 # Get the artist with the id of 1 (can also do pk here which stands for primary key)
 Artist.objects.get(id=1)
 
-# Get the artist with the name "Kanye West", if there are two Kanye's this will error!
-Artist.objects.get(name="Kanye West")
+# Get the artist with the name "Pink Floyd", if there are two Pink Floyd's this will error!
+Artist.objects.get(name="Pink Floyd")
 
-# Get all the Artists who are from the USA
-Artist.objects.filter(nationality="USA")
+# Get all the Artists who are from England
+Artist.objects.filter(nationality="England")
 
 # Store an artist in a variable for later access:
-p = Artist.objects.get(name="Kanye West")
+p = Artist.objects.get(name="Pink Floyd")
 
 # Now you can look up the artist's songs:
 p.songs.all()
 p.songs.all().values_list()
 
 # Create an Artist with the following attributes, then save, commiting it to the database
-kanye = Artist(name="Kane West", photo_url="test.com", nationality="USA")
-kanye.save()
+pinkfloyd = Artist(name="Pink Floyd", photo_url="test.com", nationality="England")
+pinkfloyd.save()
 
-# Oops, we misspelled Kanye's name! Let's change it and then commit to the DB
-kanye.name = "Kanye West"
-kanye.save()
+# Oops, we misspelled the name! Let's change it and then commit to the DB
+pinkfloyd.name = "Pink Floyd"
+pinkfloyd.save()
 
 # Let's add a song to the artist
-song = Song(title="Ultralight Beam", album="The Life of Pablo", preview_url="test.com", artist=kanye)
+song = Song(title="Dogs", album="Animals", preview_url="test.com", artist=pinkfloyd)
 song.save()
 
 # Delete the song
