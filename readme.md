@@ -206,9 +206,8 @@ In the terminal, run:
 ```bash
 $ python3 manage.py createsuperuser
 
-/* if you are on windows you may need to run
-    winpty python manage.py createsuperuser
-*/
+#   if you are on windows you may need to run
+#   winpty python manage.py createsuperuser
 ```
 
 
