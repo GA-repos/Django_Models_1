@@ -27,7 +27,7 @@ In this lesson, we will be focusing on the many features that Django provide us
 to set up and maintain our database and models.
 
 ## We Do: Set Up a Django Application & Virtual Environment
-See [installation instructions.](https://git.generalassemb.ly/SEIR-322/django-installation)
+See [installation instructions.](https://git.generalassemb.ly/Flex-322/django-installation)
 
 Make sure your pipfile is specifying Python 3.9
 If it is set to a different version it will not load properly!
